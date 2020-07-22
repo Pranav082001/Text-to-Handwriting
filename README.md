@@ -6,7 +6,7 @@
 
 1.You just need to make sure that myfont folder and text file  should be in same directory where the program is running.
 
-2. while creating your own font just crop images of alphabets,numbers (of your handwriting) .
+2.while creating your own font just crop images of alphabets,numbers (of your handwriting) .
 
 3.And name them according to their respective ASCII characters 
 
