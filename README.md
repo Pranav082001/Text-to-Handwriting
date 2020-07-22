@@ -1,8 +1,11 @@
 # Text-to-Handwriting
 ## Libraries Needed
 1.PIL 
+# OUTPUT
 
-#Instructions 
+![Screenshot (26)](https://user-images.githubusercontent.com/66110778/88167556-a5316700-cc36-11ea-883d-54a0a85e9de6.png)
+
+# Instructions 
 
 1.You just need to make sure that myfont folder and text file  should be in same directory where the program is running.
 
