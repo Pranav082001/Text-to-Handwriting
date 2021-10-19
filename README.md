@@ -1,4 +1,6 @@
 # Text-to-Handwriting
+## Medium blog - https://medium.com/@pranav.kushare2001/convert-text-into-your-handwriting-91a1ed9aefd0
+
 ## Libraries Needed
 1.PIL 
 # OUTPUT
