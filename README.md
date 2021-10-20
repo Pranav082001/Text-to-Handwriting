@@ -1,3 +1,5 @@
+<a href="https://www.buymeacoffee.com/PranavK" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
 # Text-to-Handwriting 
 ### A simple python script to convert text into your handwriting
 ### Medium blog - https://medium.com/@pranav.kushare2001/convert-text-into-your-handwriting-91a1ed9aefd0
