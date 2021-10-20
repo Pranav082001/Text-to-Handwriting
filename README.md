@@ -1,6 +1,9 @@
-# Text-to-Handwriting
-## Medium blog - https://medium.com/@pranav.kushare2001/convert-text-into-your-handwriting-91a1ed9aefd0
+# Text-to-Handwriting 
+### A simple python script to convert text into your handwriting
+### Medium blog - https://medium.com/@pranav.kushare2001/convert-text-into-your-handwriting-91a1ed9aefd0
 
+## Description- 
+Do you ever get irritated by pointless college/school assignments? Hell yeah!!! Let's imagine you have a school writing assignment in a word or text file that you must complete in your own handwriting. Don't worry, I've got you covered. This python script will transform your digital text (writeups or assignment) into handwriting.
 ## Libraries Needed
 1.PIL 
 # OUTPUT
