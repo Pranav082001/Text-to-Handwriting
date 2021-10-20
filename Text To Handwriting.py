@@ -2,17 +2,20 @@
 from PIL import Image
 from sys import argv
 
+
+# if you'd rather not use the command line, put the path to your file here
+fileName = "dummy.txt" # path of your text file
+
 # read file that user wants converted from command line. If file can't be read, assign 
 # the file to a file in the directory
 try:
     txt=open(argv[1], "r")
 except IndexError:
     print("No file entered. Using default file...")
+    txt=open(fileName, "r")
 except FileNotFoundError:
     print("Could not find file. Using default file...")
-
-    # if you'd rather not use the command line, put the path to your file here
-    txt=open("dummy.txt", "r")   # path of your text file
+    txt=open(fileName, "r")   
 
 
 BG=Image.open("myfont/bg.png") #path of page(background)photo (I have used blank page)
