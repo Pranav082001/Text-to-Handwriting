@@ -6,9 +6,10 @@ from sys import argv
 # the file to a file in the directory
 try:
     txt=open(argv[1], "r")
-except FileNotFoundError as e:
-    print(e)
-    print(f"dummy.txt being used for read")
+except IndexError:
+    print("No file entered. Using default file...")
+except FileNotFoundError:
+    print("Could not find file. Using default file...")
 
     # if you'd rather not use the command line, put the path to your file here
     txt=open("dummy.txt", "r")   # path of your text file
@@ -19,13 +20,14 @@ sheet_width=BG.width
 gap, ht = 0, 0
 
 
-
+# for each letter in the uploaded txt file, read the unicode value and replace it with
+# the corresponding handwritten file in the "myfont" folder.
 for i in txt.read().replace("\n",""):
         cases = Image.open("myfont/{}.png".format(str(ord(i))))
         BG.paste(cases, (gap, ht))
         size = cases.width
         height=cases.height
-        #print(size)
+        print(size)
         gap+=size
 
         if sheet_width < gap or len(i)*115 >(sheet_width-gap):
