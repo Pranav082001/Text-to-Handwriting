@@ -1,9 +1,19 @@
 #Importing Library
 from PIL import Image
+from sys import argv
 
-#Open the text file which you have to convert into handwriting
+# read file that user wants converted from command line. If file can't be read, assign 
+# the file to a file in the directory
+try:
+    txt=open(argv[1], "r")
+except FileNotFoundError as e:
+    print(e)
+    print(f"dummy.txt being used for read")
 
-txt=open("dummy.txt")   # path of your text file
+    # if you'd rather not use the command line, put the path to your file here
+    txt=open("dummy.txt", "r")   # path of your text file
+
+
 BG=Image.open("myfont/bg.png") #path of page(background)photo (I have used blank page)
 sheet_width=BG.width
 gap, ht = 0, 0
