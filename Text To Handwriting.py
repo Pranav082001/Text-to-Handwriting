@@ -30,7 +30,8 @@ for i in txt.read().replace("\n",""):
         BG.paste(cases, (gap, ht))
         size = cases.width
         height=cases.height
-        print(size)
+        #print(size)
+        print("Running...........")
         gap+=size
 
         if sheet_width < gap or len(i)*115 >(sheet_width-gap):
