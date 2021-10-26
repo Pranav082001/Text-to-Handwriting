@@ -1,7 +1,7 @@
-Deep learning is an artificial intelligence function that imitates the workings of the
-human brain in processing data and creating patterns for use in decision making.
- Deep learning is a subset of machine learning in artificial intelligence (AI) that has
- networks capable of learning unsupervised from data that is unstructured or unlabeled.
- Also known as deep neural learning or deep neural network.
+txtColor=red
+REPORT 1. LAB
 
+txtColor=purple
+Swarm intelligence )SI( is the collective behavior of decentralized, self-organized systems, natural or artificial. The concept is employed in work on artificial intelligence. The expression was introduced by Gerardo Beni and Jing Wang in 1989, in the context of cellular robotic systems.
 
+SI systems consist typically of a population of simple agents or boids interacting locally with one another and with their environment. The inspiration often comes from nature, especially biological systems. The agents follow very simple rules, and although there is no centralized control structure dictating how individual agents should behave, local, and to a certain degree random, interactions between such agents lead to the emergence of intelligent global behavior, unknown to the individual agents.
