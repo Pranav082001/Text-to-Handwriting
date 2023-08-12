@@ -11,21 +11,18 @@ fileName = "dummy.txt" # path of your text file
 try:
     txt=open(argv[1], "r")
 except IndexError:
-    print("No file entered. Using default file...")
-    txt=open(fileName, "r")
-except FileNotFoundError:
-    print("Could not find file. Using default file...")
-    txt=open(fileName, "r")   
 
 
-BG=Image.open("myfont/bg.png") #path of page(background)photo (I have used blank page)
 sheet_width=BG.width
 gap, ht = 0, 0
 
 
 # for each letter in the uploaded txt file, read the unicode value and replace it with
 # the corresponding handwritten file in the "myfont" folder.
-for i in txt.read().replace("\n",""):
+for i in txt.read():
+    if(i == '\n'):
+        gap, ht=0, ht+140
+    else:
         cases = Image.open("myfont/{}.png".format(str(ord(i))))
         BG.paste(cases, (gap, ht))
         size = cases.width
